@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-source "https://rubygems.org"
+source "https://gems.ruby-china.com"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 # Declare your gem"s dependencies in virtual_record.gemspec.
@@ -15,7 +15,7 @@ gemspec
 
 # Your gem is dependent on dev or edge Rails. Once you can lock this
 # dependency down to a specific version, move it to your gemspec.
-gem "rails", "~> 6.0"
+gem "rails"
 # gem "rails", github: "rails/rails"
 
 gem "sqlite3"

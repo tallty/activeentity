@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.description = "Rails virtual model solution based on ActiveModel design for Rails 6+."
   s.license     = "MIT"
 
-  s.required_ruby_version = ">= 2.5.0"
+  s.required_ruby_version = ">= 2.4.2"
 
   s.files        = Dir["lib/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
   s.require_path = "lib"
@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   # s.extra_rdoc_files = %w(README.rdoc)
   # s.rdoc_options.concat %w[--main README.rdoc]
 
-  s.add_dependency "activesupport", "~> 6.0", "< 7.0"
-  s.add_dependency "activemodel", "~> 6.0", "< 7.0"
+  s.add_dependency "activesupport", "~> 5.2", "< 7.0"
+  s.add_dependency "activemodel", "~> 5.2", "< 7.0"
+  s.add_dependency 'sprockets', '~> 3.7.2'
 end
